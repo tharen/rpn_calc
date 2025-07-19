@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules
+
+# Build output
+# For the recommended GitHub Pages deployment, you should not commit the 'dist' directory.
+# A GitHub Action will build your site and deploy it.
+# If you choose to build locally and commit the output, remove the line below.
+/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea
+.vscode
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Test and coverage reports
+/coverage
