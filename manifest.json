@@ -1,0 +1,20 @@
+{
+  "name": "RPN Calculator",
+  "short_name": "RPNCalc",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/d3701c/31363f?text=CalcX",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/d3701c/31363f?text=CalcX",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#D3701C"
+}
