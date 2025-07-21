@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/rpn_calc/' : '/',
+  base: "/rpn_calc/",
   transpileDependencies: true,
   pwa: {
     name: 'RPN Calculator',
